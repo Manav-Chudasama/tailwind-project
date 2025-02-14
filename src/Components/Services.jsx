@@ -65,7 +65,7 @@ export default function Services() {
               <h1 className="text-2xl font-bold text-neutralDGrey px-2">
                 {card.title}
               </h1>
-              <p className="textsm text-neutralGrey">{card.description}</p>
+              <p className="text-sm text-neutralGrey">{card.description}</p>
             </div>
           </div>
         ))}
